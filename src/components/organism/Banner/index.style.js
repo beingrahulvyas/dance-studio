@@ -22,6 +22,10 @@ export const BannerBox = styled.div`
             color: #ffffff;
             line-height: 1;
             margin-bottom: 20px;
+
+            @media(max-width: 600px) {
+                font-size: 80px;
+            }
         }
 
         h1 > span {
@@ -35,6 +39,10 @@ export const BannerBox = styled.div`
             font-weight: 400;
             text-align: center;
             margin-bottom: 38px;
+
+            @media(max-width: 600px) {
+                font-size: 20px;
+            }
         }
 
         button {
@@ -46,6 +54,15 @@ export const BannerBox = styled.div`
             padding: 16px 37px;
         }
 
+    }
+
+    @media(max-width: 768px) {
+        background-image: unset;
+
+        section {
+            max-width: unset;
+            width: 100%;
+        }
     }
 
 `;

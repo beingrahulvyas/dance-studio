@@ -15,7 +15,7 @@ const Gallery = () => {
                         heading="Our Gallery"
                         subheading="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum " />
                 </MaxWidth>
-                <Row columnNum={3} gap={20}>
+                <Row columnNum={3} gap={20} md={{columnNum: 2}} sm={{columnNum: 1}}>
                     <BackgroundImage height="272px" border="3px solid #933798" src={require('../../../assets/images/1.png')} />
                     <BackgroundImage height="272px" border="3px solid #933798" src={require('../../../assets/images/2.png')} />
                     <BackgroundImage height="272px" border="3px solid #933798" src={require('../../../assets/images/3.png')} />

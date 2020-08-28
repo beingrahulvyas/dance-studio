@@ -52,7 +52,7 @@ const FromOurBlog = () => {
                         heading="From Our Blog"
                         subheading="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum " />
                 </MaxWidth>
-                <Row columnNum={3} gap={42} className="blogs">
+                <Row columnNum={3} md={{columnNum: 1}} gap={42} className="blogs">
                     {
                         blogData && blogData.length !== 0 && blogData.map(({ bg, id }) => (
                             <div key={id}>
@@ -61,7 +61,7 @@ const FromOurBlog = () => {
                         ))
                     }
                 </Row>
-                <Row columnNum={3} gap={15} className="personal">
+                <Row columnNum={3} md={{columnNum: 1}} gap={15} className="personal">
                     {personalData && personalData.length !== 0 &&
                         personalData.map(({ id, content, img, title }) => (
                             <div key={id}>

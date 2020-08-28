@@ -63,4 +63,16 @@ export const BlogSection = styled.div`
             margin-right: 18px;
         }
     }
+
+    @media(max-width: 768px) {
+        .content {
+            h5 {
+                margin: 8px 0;
+            }
+
+            button {
+                margin: 16px 0 24px 0;
+            }
+        }
+    }
 `;

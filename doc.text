@@ -24,4 +24,13 @@
 2. Fixed lazy loading error
 3. Fixed warning of unique key prop
 4. Created Footer Component
+5. Added Font Awesome for menu icon
+6. Added responsive styles in ROw Component
+7. Made Navigation Responsive 
+8. Made Banner Component Responsive
+9. Added Responsive styles in Row Component
+10. Made Gallery Component Responsive
+11. Fixed StayInTouch Design
+12. Made StayInTouch Component Responsive
+13. Made FormOurBlog Component Responsive
 

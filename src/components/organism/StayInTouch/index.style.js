@@ -14,14 +14,22 @@ export const StayInTouchStyle = styled.section`
         letter-spacing: 0px;
         line-height: 38px;
         color: #000000;
+
+        @media(max-width: 600px) {
+            font-size: 18px;
+        }
     }
 
     input {
-        padding: 30px 40px;
+        padding: 30px 230px 30px 40px;
         width: 100%;
         ::placeholder {
             color: #000000;
         }
+
+        @media(max-width: 768px) {
+            padding: 16px 200px 16px 24px;
+        } 
     }
 
     button {
@@ -32,5 +40,9 @@ export const StayInTouchStyle = styled.section`
         right: 0;
         top: 0;
         bottom: 0;
+
+        @media(max-width: 768px) {
+            padding: 16px 24px;
+        }
     }
 `;
