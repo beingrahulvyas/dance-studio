@@ -34,3 +34,14 @@
 12. Made StayInTouch Component Responsive
 13. Made FormOurBlog Component Responsive
 
+/*********** Here Responsive design has been completed ************/
+/******************************************************************/
+1. Installed react-hook-Form to handling form
+2. Created ErrorMessage Component
+3. Added react-hook-form in StayInTouch Component
+4. Created Contact Component
+5. Added react-hook-form in Contact Component
+
+/************ Hare form validation has been completed *************/
+/******************************************************************/
+

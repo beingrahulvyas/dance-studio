@@ -6,6 +6,7 @@ import Container from '../../atoms/Container';
 import Row from '../../atoms/Row';
 import Blog from '../../molecules/Blog';
 import Personal from '../../molecules/Personal';
+import Contact from '../../molecules/Contact';
 
 const blogData = [
     {
@@ -52,7 +53,7 @@ const FromOurBlog = () => {
                         heading="From Our Blog"
                         subheading="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum " />
                 </MaxWidth>
-                <Row columnNum={3} md={{columnNum: 1}} gap={42} className="blogs">
+                <Row columnNum={3} md={{ columnNum: 1 }} gap={42} className="blogs">
                     {
                         blogData && blogData.length !== 0 && blogData.map(({ bg, id }) => (
                             <div key={id}>
@@ -61,7 +62,7 @@ const FromOurBlog = () => {
                         ))
                     }
                 </Row>
-                <Row columnNum={3} md={{columnNum: 1}} gap={15} className="personal">
+                <Row columnNum={3} md={{ columnNum: 1 }} gap={15} className="personal">
                     {personalData && personalData.length !== 0 &&
                         personalData.map(({ id, content, img, title }) => (
                             <div key={id}>
@@ -70,16 +71,7 @@ const FromOurBlog = () => {
                         ))}
                 </Row>
                 <MaxWidth max="560px">
-                    <div className="contact">
-                        <h2>Contact Us</h2>
-                        <p>Please fill this form in a decent manner</p>
-                        <form>
-                            <input type="text" placeholder="Name" />
-                            <input type="email" placeholder="Email" />
-                            <textarea placeholder="Message" rows={4} />
-                            <button type="submit">Send Message</button>
-                        </form>
-                    </div>
+                    <Contact />
                 </MaxWidth>
             </Container>
         </FromOurBlogSection>
