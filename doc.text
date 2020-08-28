@@ -1,0 +1,16 @@
+1. First, I created ReactJs project ( dance-studio ).
+2. Created Folder Structure
+3. Removed unwanted code from App.js and App.css.
+4. Install react-router-dom 
+5. Setup react router
+6. Installed styled-component to write css in js.
+7. Created Layout component
+8. Created Container component
+9. Created Banner component
+10. Created MaxWidth, Header, Row and BackgroundImage Components
+11. Created Gallery Components
+12. Created StayInTouch Components
+13. Created Blog and Personal Component
+14. For Optimization used: memo and lazy loading
+
+/*************************************************************************/
