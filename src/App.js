@@ -8,7 +8,7 @@ const About = lazy(() => import('./pages/About'));
 function App() {
   return (
     <Layout>
-      <Suspense fallback={() => "Loading..."}>
+      <Suspense fallback={"Loading..."}>
         <Switch>
           <Route path="/about" component={About} />
           <Route path='/' component={Home} />

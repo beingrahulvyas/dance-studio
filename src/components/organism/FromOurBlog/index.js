@@ -55,8 +55,8 @@ const FromOurBlog = () => {
                 <Row columnNum={3} gap={42} className="blogs">
                     {
                         blogData && blogData.length !== 0 && blogData.map(({ bg, id }) => (
-                            <div>
-                                <Blog key={id} bg={bg} />
+                            <div key={id}>
+                                <Blog bg={bg} />
                             </div>
                         ))
                     }
@@ -64,8 +64,8 @@ const FromOurBlog = () => {
                 <Row columnNum={3} gap={15} className="personal">
                     {personalData && personalData.length !== 0 &&
                         personalData.map(({ id, content, img, title }) => (
-                            <div>
-                                <Personal key={id} content={content} img={img} title={title} />
+                            <div key={id}>
+                                <Personal content={content} img={img} title={title} />
                             </div>
                         ))}
                 </Row>
