@@ -17,8 +17,11 @@
         Here My time was completed, So I pushed code on github.
         But Project is not completed so I'm doing it. And 
         I will push on github So You can check.
+        You can also check my sample react native app (Covid-19-India) on 
+        this github link: https://github.com/beingrahulvyas/Covid-19-India
 /*************************************************************************/
 1. Fixed memo is not defined
 2. Fixed lazy loading error
 3. Fixed warning of unique key prop
+4. Created Footer Component
 
